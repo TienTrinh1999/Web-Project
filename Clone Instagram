@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <link href="https://cdn.jsdelivr.net/npm/bootstdap@5.3.1/dist/css/bootstdap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstdap@5.3.1/dist/js/bootstdap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2e102d6026.js" crossorigin="anonymous"></script>
+    <head>
+        <script src="https://kit.fontawesome.com/2e102d6026.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.boots apcdn.com/boots ap/3.3.7/css/boots ap.min.css">
+        <meta charset="utf-8"/>
+        <meta name="description" content="Tri Nguyen"/> 
+        <meta name="keywords" content="HTML, CSS, Tri Nguyen, Tree Nguyen"/>
+        <meta name="author" content="Tri Nguyen"/>
+        <link rel="stylesheet" type="text/css" href="./style/message.css"/>
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="image_src" href="./tree.jpg" />
+        <title>
+            Instagram
+        </title>
+        <!-- add icon link -->
+            <link rel = "icon" sizes ="1800x180" href = "https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_640.jpg" 
+            type = "image/x-icon">
+        <meta charset="utf-8">
+        <style>
+        .btn{
+            padding-left: 5px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 17px;
+            padding: 10px;
+            position:relative;  
+            bottom:25px;
+            right: 10px;
+        }
+        .btn:hover{
+            background-color: rgb(208, 207, 207);
+        }
+        #ins{
+            font-size: 20px;
+            padding-top: 20px;
+            position: relative;
+            right: 5px;
+        }
+        .btnn{
+            border-radius: 50%;
+            border: solid #F35369;;  
+            transition: transform 10s;
+        }
+        .btnn:hover{
+            background-color: solid #F35369;;
+            transform: rotate(360deg);
+        }
+        img
+        {
+            width: 20px;
+            display: block;
+            border-radius: 50%;
+        }
+        .btn
+        {
+            background-color: white;
+            border: white;
+            color: rgb(60, 59, 59);
+            padding-right: 10px !important;
+        }
+        i
+        {
+            font-size:20px;
+        }
+        #page
+        {
+            padding-top: 5px;
+        }
+        .grid-container {
+            background-color: blue;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 1fr, 2fr;
+        }
+        .grid-item{
+            background-color: white;
+            border: 1px solid dark;
+            padding: 20px;
+        }    
+        .grid-itemab{
+            background-color: white;
+            border: 1px solid dark;
+        }      
+        .column {
+        float: left;
+        width: 100%;
+        display: grid;
+        border: 1px solid dark;
+        position: sticky;
+        }
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }   
+        #instacircle{
+            scale: 0.5;
+            position: absolute;
+            bottom: 3350px;
+            left: 575px;
+        }
+        #instacircleab{
+            scale: 0.5;
+            position: relative;
+            bottom: 2011px;
+            left: 220px;            
+        }
+        #instacircleabc{
+            scale: 0.5;
+            position: relative;
+            bottom: 2233px;
+            left: 300px;            
+        }
+        #instacircleabcd{
+            scale: 0.5;
+            position: relative;
+            bottom: 2455px;
+            left: 380px;            
+        }
+        #instacircleabcde{
+            scale: 0.5;
+            position: relative;
+            bottom: 2677px;
+            left: 460px;            
+        }
+        #instacircleabcdef{
+            scale: 0.5;
+            position: relative;
+            bottom: 2899px;
+            left: 540px;            
+        }
+        #instacircleabcdefg{
+            scale: 0.5;
+            position: relative;
+            bottom: 3121px;
+            left: 620px;            
+        }
+        #instacircleabcdefgh{
+            scale: 0.5;
+            position: relative;
+            bottom: 3343px;
+            left: 700px;            
+        }
+        .vl {
+  border-left: 1px solid rgb(219, 217, 217);
+  height: 1080px;
+  position: relative;
+  left: 30%;
+  margin-left: -250px;
+  bottom: 1000px;
+}   
+        </style>
+    </head>
+    <body style="background-color: white;">
+        <div class="row">
+            <div class="column">
+                <div class="fixed-content">
+                    <div class="grid-item">
+                        <div id="ins">
+                            <img style="width: 120px; position:relative;  bottom:25px;" src="https://assets.stickpng.com/images/5a4e432a2da5ad73df7efe7a.png" alt="">
+                        </div>
+                            <div style="line-height:150%;">
+                                <br>
+                            </div>
+                        <button class="btn active"><i class="fa-sharp fa-solid fa-house" style=></i> &nbsp;&nbsp;Trang chủ</button>
+                                                        <div style="line-height:50%;">
+                                <br>
+                            </div>
+                        <button class="btn"><i class="fa-sharp fa-solid fa-magnifying-glass"></i> &nbsp;&nbsp;Tìm kiếm</button>
+                                                        <div style="line-height:50%;">
+                                <br>
+                            </div>
+                        <button class="btn"><i class="fa-sharp fa-regular fa-compass"></i> &nbsp;&nbsp;Khám phá</button>            
+                                                        <div style="line-height:50%;">
+                                <br>
+                            </div>
+                        <button class="btn"><i class="fa-sharp fa-regular fa-circle-play"></i> &nbsp;&nbsp;Reels</button>            
+                                                        <div style="line-height:50%;">
+                                <br>
+                            </div>
+                        <button class="btn"><i class="fa-sharp fa-solid fa-comment-dots"></i> &nbsp;&nbsp;Tin nhắn</button>            
+                                                        <div style="line-height:50%;">
+                                <br>
+                            </div>
+                        <button class="btn"><i class="fa-sharp fa-regular fa-heart"></i> &nbsp;&nbsp;Thông báo</button>            
+                                                        <div style="line-height:50%;">
+                                <br>
+                            </div>
+                        <button class="btn"><i class="fa-sharp fa-solid fa-plus"></i> &nbsp;&nbsp;Tạo</button>
+                                                        <div style="line-height:1%;">
+                                <br>
+                            </div>            
+                        <div id="ins">
+                            <button class="btn">
+                                <div style="display:inline-block;vertical-align:top;">
+                                    <img style="margin-top: 20px;" src="./instagramprofile.jpg" alt="">
+                                </div>
+                            <p style="display:inline-block;">   &nbsp;&nbsp;Trang cá nhân<p></p>
+                        </button>       
+                        </div>
+                        <div style="line-height:1700%;">
+                            <br>
+                        </div>
+                        <button class="btn"><i class="fa-sharp fa-solid fa-grip-lines"></i> &nbsp;&nbsp;Xem thêm</button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="vl">
+                </div>
+                    <div class="grid-item">
+                        <div id="instacircle">
+                        <button class="btnn"><img style="border-radius: 50%; width: 120px;" src="./instagramprofile.jpg" alt=""></button>
+                        <p style="padding-left: 5px; font-size: 30px;">tien.trinh99</p>
+                        </div>
+                    </div>
+                    <div class="grid-itemab">
+                        <div id="instacircleab">
+                        <button class="btnn"><img style="border-radius: 50%; width: 120px;" src="./2.jpg" alt=""></button>
+                        <p style="padding-left: 0px; font-size: 30px;">anhhong.mm</p>
+                        </div>
+                    </div>
+                    <div class="grid-itemab">
+                        <div id="instacircleabc">
+                        <button class="btnn"><img style="border-radius: 50%; width: 120px;" src="./instagramprofile.jpg" alt=""></button>
+                        <p style="padding-left: 15px; font-size: 30px;">qhuy_lieu</p>
+                        </div>
+                    </div>
+                    <div class="grid-itemab">
+                        <div id="instacircleabcd">
+                        <button class="btnn"><img style="border-radius: 50%; width: 120px;" src="./3.jpg" alt=""></button>
+                        <p style="padding-left: 5px; font-size: 30px;">itsnot_anvu</p>
+                        </div>
+                    </div>
+                    <div class="grid-itemab">
+                        <div id="instacircleabcde">
+                        <button class="btnn"><img style="border-radius: 50%; width: 120px;" src="./4.jpg" alt=""></button>
+                        <p style="padding-left: 5px; font-size: 30px;">jasony3002</p>
+                        </div>
+                    </div>
+                    <div class="grid-itemab">
+                        <div id="instacircleabcdef">
+                        <button class="btnn"><img style="border-radius: 50%; width: 120px;" src="./1.jpg" alt=""></button>
+                        <p style="padding-left: 0px; font-size: 30px;">_hongseokie</p>
+                        </div>
+                    </div>
+                    <div class="grid-itemab">
+                        <div id="instacircleabcdefg">
+                        <button class="btnn"><img style="border-radius: 50%; width: 120px;" src="./5.jpg" alt=""></button>
+                        <p style="padding-left: 5px; font-size: 30px;">phuoc._.99</p>
+                        </div>
+                    </div>
+                    <div class="grid-itemab">
+                        <div id="instacircleabcdefgh">
+                        <button class="btnn"><img style="border-radius: 50%; width: 120px;" src="./6.jpg" alt=""></button>
+                        <p style="padding-left: 0px; font-size: 30px;">phut.ko.thu.dzi</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="width:100px;">
+                    <img style="width:600px; border-radius:0% !important;position:relative;bottom:3400px;left:600px;" src="./10.png" alt="ins">
+                </div>
+                <div style="width:100px;">
+                    <img style="width:400px; border-radius:0% !important;position:relative;bottom:4300px;left:1300px;" src="./11.png" alt="ins">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
